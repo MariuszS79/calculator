@@ -1,6 +1,13 @@
+import win32gui, win32con
+
+
+
 import tkinter as tk
 
 import tkinter.ttk as ttk
+
+hide = win32gui.GetForegroundWindow()
+win32gui.ShowWindow(hide, win32con.SW_HIDE)
 
 win=tk.Tk()
 win.title("Calculator")
