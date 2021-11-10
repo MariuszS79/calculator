@@ -1,6 +1,5 @@
 import tkinter as tk
-<<<<<<< HEAD
-=======
+
 import tkinter.ttk as ttk
 
 win=tk.Tk()
@@ -87,4 +86,4 @@ button_e=ttk.Button(win, text="=", command=equal)
 button_e.grid(row=5,columnspan=4,sticky="nsew")
 
 win.mainloop()
->>>>>>> 59729f07a77054d2280ee7066bc00fc6ac5dc1fc
+
